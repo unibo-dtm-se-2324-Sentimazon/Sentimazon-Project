@@ -22,7 +22,7 @@ punctuations, symbols- stop word filtering-
 stemming
 
 ## Tools
-**-Language**: Python
-**-Core libraries**: Pandas, RegEx, NLTK
-**-Visualization**: Matplotlib 
-**-Environment**: Jupyter Notebook
+- **-Language**: Python
+- **-Core libraries**: Pandas, RegEx, NLTK
+- **-Visualization**: Matplotlib 
+- **-Environment**: Jupyter Notebook
