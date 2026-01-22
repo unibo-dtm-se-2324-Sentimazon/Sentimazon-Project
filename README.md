@@ -21,6 +21,8 @@ stemming-lemmatization-tokenization
 punctuations, symbols- stop word filtering-
 stemming
 
+5. Lowercasing all words
+
 ## Tools
 - **Language**: Python
 - **Core libraries**: Pandas, RegEx, NLTK
