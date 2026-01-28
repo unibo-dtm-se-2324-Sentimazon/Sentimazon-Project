@@ -7,21 +7,18 @@ All the steps are presented in Main.ipynb, as follow.
 - Visualizing the textual data, reviews regarding the product.
 - Pre-processing the data in order to prepare for the further analysis. This step including the following order: 
 
-1. Text cleansing(URL, punctuation, number
-removal)- lowercasing- username handling-
-spelling correction-Stop Words removal
+    1. Text cleansing(URL, punctuation, number removal)- lowercasing- username handling- spelling correction-Stop Words removal
 
-2. Remove @account names and duplicate
-comments- lowercasing remove Stop Words-
-stemming-lemmatization-tokenization
+    2. Remove @account names and duplicate comments- lowercasing remove Stop Words- stemming-lemmatization-tokenization
 
-3. Remove emotional symbols
+    3. Remove emotional symbols
 
-4. Tokenization-remove non-text characters,
-punctuations, symbols- stop word filtering-
-stemming
+    4. Tokenization-remove non-text characters, punctuations, symbols- stop word filtering-stemming
 
-5. Lowercasing all words
+    5. Lowercasing all words
+
+- Lemmatization: The main object of this section is to change the tokinized words in reviews into their base dictrionary form, so in this way the same words in the reviews treated equally to reduce noises as much as possible. This part of the analysis would be procesded using NLTK library.
+    
 
 ## Tools
 - **Language**: Python
