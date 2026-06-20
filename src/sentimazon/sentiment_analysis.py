@@ -1,7 +1,6 @@
 import time
 import pandas as pd
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from transformers import pipeline
 
 
 def apply_vader_sentiment(phrasesDF):
@@ -40,9 +39,11 @@ def apply_vader_sentiment(phrasesDF):
 
 
 def apply_distilbert_sentiment(phrasesDF):
-    phrasesDF = phrasesDF.copy()
+    from transformers import pipeline
 
+    phrasesDF = phrasesDF.copy()
     start_trans = time.time()
+
 
     sentiment_model = pipeline(
         "sentiment-analysis",
@@ -96,8 +97,9 @@ def apply_distilbert_sentiment(phrasesDF):
 
 
 def apply_roberta_sentiment(phrasesDF):
-    phrasesDF = phrasesDF.copy()
+    from transformers import pipeline
 
+    phrasesDF = phrasesDF.copy()
     start_trans = time.time()
 
     roberta_model = pipeline(
